@@ -1,0 +1,11 @@
+{
+    "1": "Rephrase the following bug report in five distinct styles, to avoid repetition, while keeping its meaning. Output format: `[1-5]. Summary: [Rephrased Summary] \n Description: [Rephrased Description]` \n\n >>> Summary: {} \n\n >>> Description: {}",
+    
+    "2": "I want you to act as a collaborator for maintaining bug reports from a software project. Your job is to rephrase a bug report in five distinct styles, to avoid repetition, while keeping its meaning. Output format: `[1-5]. Summary: [Rephrased Summary] \n Description: [Rephrased Description]`. Now, rephrase the following bug report: \n\n >>> Summary: {} \n\n >>> Description: {}",
+    
+    "3": "I want you to act as a collaborator for maintaining bug reports from a software project. Your job is to rephrase the bug report, to avoid repetition, while keeping its meaning. The aim of this step is to help filter duplicate bug reports. You will need to write five different versions of the bug report you encounter. You can delete the contents you perceive useless. Output format: `[1-5]. Summary: [Rephrased Summary] \n Description: [Rephrased Description]`. Now, your need to rephrase the following bug report: \n\n >>> Summary: {}  \n\n >>> Description: {}", 
+    
+    "4": "Keep keywords from the following bug report which can represent the main meaning. Output format: `Summary: Selected Keywords \n Description: Selected Keywords` \n\n >>> Summary: {} \n\n >>> Description: {}",
+    
+    "5": "I have a bug report which contains summary and description. I want you to select keywords from both parts which keep the main meaning of the bug report. These keywords would be used for duplicate bug report detection. Output format: `Summary: Selected Keywords \n Description: Selected Keywords` \n\n >>> Summary: {} \n\n >>> Description: {}"
+}

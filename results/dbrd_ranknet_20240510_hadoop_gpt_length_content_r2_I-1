@@ -1,0 +1,146 @@
+====================================================================
+--Started at Fri May 10 06:52:45 2024
+--Dataset file = /app/tosem-sampel-data/hadoop/dbrd_test_hadoop_gpt_length_content_r2.txt
+--Total Iterations = 1
+--Indexing Type = NO_INDEXING
+====================================================================
+
+
+Iteration 1
+Random seed = 313998294
+INFO: #reports = 13981
+RankNet Detector
+INFO: skipped reports [(285)duplicate/(10267)all]
+INFO: RankNet: building training pairs...
+INFO: RankNet: built 326 training pairs.
+INFO: RankNet: built 0 validating pairs.
+
+[unigram] BM25F Parameter...
+[total weight, fixed = 0] = 0.515800
+[k1, fixed = 1] = 2.000000
+[summary weight, fixed = 1] = 3.012420
+[summary b, fixed = 1] = 0.498684
+[description weight, fixed = 1] = 0.764491
+[description b, fixed = 1] = 0.988498
+[k3, fixed = 0] = 0.163380
+
+[bigram] BM25F Parameter...
+[total weight, fixed = 0] = 0.002532
+[k1, fixed = 1] = 2.000000
+[summary weight, fixed = 1] = 3.000635
+[summary b, fixed = 1] = 0.499198
+[description weight, fixed = 1] = 0.983019
+[description b, fixed = 1] = 0.999975
+[k3, fixed = 0] = 0.000075
+
+Surface weights...
+[component weight, fixed = 0] = 2.000000
+[sub component weight, fixed = 0] = 0.098917
+[report type weight, fixed = 0] = 0.700000
+[priority weight, fixed = 0] = 0.016970
+[version weight, fixed = 1] = 0.000000
+INFO: the master set (13162319) couldn't be reached (diff=639,query=13287659)
+INFO: the master set (13167029) couldn't be reached (diff=623,query=13289102)
+INFO: the master set (13156176) couldn't be reached (diff=683,query=13291590)
+INFO: the master set (13137405) couldn't be reached (diff=812,query=13307183)
+INFO: the master set (13202193) couldn't be reached (diff=431,query=13308116)
+INFO: the master set (13159283) couldn't be reached (diff=744,query=13308151)
+INFO: the master set (13218114) couldn't be reached (diff=429,query=13313461)
+INFO: the master set (13219206) couldn't be reached (diff=492,query=13315643)
+INFO: the master set (13173400) couldn't be reached (diff=727,query=13317204)
+INFO: the master set (13248907) couldn't be reached (diff=382,query=13323878)
+INFO: the master set (13238730) couldn't be reached (diff=449,query=13325693)
+INFO: the master set (13195506) couldn't be reached (diff=673,query=13325869)
+INFO: the master set (13208469) couldn't be reached (diff=617,query=13328117)
+INFO: the master set (13222705) couldn't be reached (diff=577,query=13335723)
+
+Elapsed time = 0
+Recall...
+TOP( 1)(   23/   57)=0.403509
+TOP( 2)(   27/   57)=0.473684
+TOP( 3)(   29/   57)=0.508772
+TOP( 4)(   34/   57)=0.596491
+TOP( 5)(   35/   57)=0.614035
+TOP( 6)(   37/   57)=0.649123
+TOP( 7)(   37/   57)=0.649123
+TOP( 8)(   37/   57)=0.649123
+TOP( 9)(   37/   57)=0.649123
+TOP(10)(   37/   57)=0.649123
+TOP(11)(   37/   57)=0.649123
+TOP(12)(   38/   57)=0.666667
+TOP(13)(   39/   57)=0.684211
+TOP(14)(   39/   57)=0.684211
+TOP(15)(   39/   57)=0.684211
+TOP(16)(   39/   57)=0.684211
+TOP(17)(   40/   57)=0.701754
+TOP(18)(   40/   57)=0.701754
+TOP(19)(   40/   57)=0.701754
+TOP(20)(   40/   57)=0.701754
+Recall...
+0.403509
+0.473684
+0.508772
+0.596491
+0.614035
+0.649123
+0.649123
+0.649123
+0.649123
+0.649123
+0.649123
+0.666667
+0.684211
+0.684211
+0.684211
+0.684211
+0.701754
+0.701754
+0.701754
+0.701754
+MAP = 0.485676
+
+
+
+Average Average Recall...
+TOP( 1)=0.403509
+TOP( 2)=0.473684
+TOP( 3)=0.508772
+TOP( 4)=0.596491
+TOP( 5)=0.614035
+TOP( 6)=0.649123
+TOP( 7)=0.649123
+TOP( 8)=0.649123
+TOP( 9)=0.649123
+TOP(10)=0.649123
+TOP(11)=0.649123
+TOP(12)=0.666667
+TOP(13)=0.684211
+TOP(14)=0.684211
+TOP(15)=0.684211
+TOP(16)=0.684211
+TOP(17)=0.701754
+TOP(18)=0.701754
+TOP(19)=0.701754
+TOP(20)=0.701754
+Average Average Recall...
+0.403509
+0.473684
+0.508772
+0.596491
+0.614035
+0.649123
+0.649123
+0.649123
+0.649123
+0.649123
+0.649123
+0.666667
+0.684211
+0.684211
+0.684211
+0.684211
+0.701754
+0.701754
+0.701754
+0.701754
+Average MAP = 0.485676

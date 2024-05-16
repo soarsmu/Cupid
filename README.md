@@ -5,7 +5,6 @@ Please download from this [Google Drive](https://drive.google.com/file/d/1M3DJgL
 Check the results in `./results` directory.
 
 ## Commands
-
 ### Generate input for REP
 To run REP, we need prepare one file for each different json file: `dbrd_test.txt`. Go to `SABD` directory and run the following command:
 
@@ -26,7 +25,10 @@ build/bin/fast-dbrd -n 20240510_kibana_gpt_p1_r1 -r ranknet-configs/full-textual
 ```
 
 ## RQ1: Comparing with Baselines
-For SABD and Siamese Pair, we use the implementation in the [replication package](https://github.com/soarsmu/TOSEM-DBRD) of the TOSEM paper.
+For SABD and Siamese Pair, we use the implementation in the [replication package](https://github.com/soarsmu/TOSEM-DBRD) of Zhang et al.[1].
+
+### Reference
+[1] Zhang, T., Han, D., Vinayakarao, V., Irsan, I. C., Xu, B., Thung, F., ... & Jiang, L. (2023). Duplicate bug report detection: How far are we?. ACM Transactions on Software Engineering and Methodology, 32(4), 1-32.
 
 ## RQ2
 ### RQ2.1: Selection Rules
@@ -35,7 +37,7 @@ Preparing the data `src/handle_data.ipynb`
 ### RQ2.2: ChatGPT Alternatives
 Comparing with other keyword extraction methods
 
-- Running LLaMA 3 and Phi
+- Running LLaMA 3 and Phi-3
 path: `src/run_llm.ipynb`
 
 - Running OpenChat
@@ -55,8 +57,6 @@ path: `src/run_kpminer.ipynb`
 - Running YAKE
 path: `src/run_yake.ipynb`
 
-### Specific keyword extraction methods
-path: `src/run_pke.ipynb`
 
 ### RQ2.3: Prompt Alternatives
 path: `src/run_gpt.ipynb`
